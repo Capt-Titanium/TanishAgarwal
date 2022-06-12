@@ -75,10 +75,10 @@ export default function Index({ projects, setTheme }) {
       <Toolbar className={classes.toolbar} />
       <Container>
         <Landing />
+        <About/>
         <Skills />
         <Projects data={projects}/>
         <Experience/>
-        <About/>
       </Container>
     </div>
   );

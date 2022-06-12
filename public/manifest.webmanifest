@@ -2,8 +2,6 @@
     "theme_color": "#000000",
     "background_color": "#000000",
     "display": "standalone",
-    "scope": "https://tanishagarwal.vercel.app/",
-    "start_url": "https://tanishagarwal.vercel.app/",
     "name": "Tanish Agarwa;",
     "short_name": "TA",
     "description": "Tanish Agarwal's portfolio"

@@ -96,12 +96,10 @@ export default function Experience() {
                                     experience[title].map(({
                                         organization,
                                         role,
-                                        type,
                                         startDate,
                                         endDate,
                                         city,
                                         state,
-                                        country,
                                         url,
                                         thumbnail
                                     }, i) =>
@@ -125,7 +123,7 @@ export default function Experience() {
                                                                 </Avatar>
                                                             }
                                                             title={organization}
-                                                            subheader={role + " - " + type}
+                                                            subheader={role}
                                                         />
                                                         <CardHeader
                                                             avatar={<DateRange />}
@@ -135,7 +133,7 @@ export default function Experience() {
                                                         />
                                                         <CardHeader
                                                             avatar={<LocationCity />}
-                                                            subheader={`${city}, ${state}, ${country}`}
+                                                            subheader={`${city}, ${state}`}
                                                             className={classes.cardHeader}
                                                         />
                                                     </CardActionArea>
