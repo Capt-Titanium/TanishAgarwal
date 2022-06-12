@@ -13,6 +13,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-typed": "^1.2.0",
+    "sharp": "^0.30.6",
     "simple-icons": "^4.11.0",
     "webpack": "^4.46.0"
   },
